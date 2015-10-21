@@ -1,0 +1,38 @@
+{
+  "name": "meaning-error-middleware",
+  "version": "0.1.0",
+  "description": "Meaning error middleware",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "eslint": "^1.5.1",
+    "eslint-config-airbnb": "^0.1.0"
+  },
+  "peerDependencies": {
+    "meaning-error": "2.x"
+  },
+  "scripts": {
+    "compile": "babel --stage 0 -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "eslint src/ spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krolow/meaning-error-middleware.git"
+  },
+  "keywords": [
+    "meaning",
+    "error",
+    "handler",
+    "throw",
+    "exception",
+    "express",
+    "middleware"
+  ],
+  "author": "Vinícius Krolow <krolow@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krolow/meaning-error-middleware/issues"
+  },
+  "homepage": "https://github.com/krolow/meaning-error-middleware#readme"
+}
