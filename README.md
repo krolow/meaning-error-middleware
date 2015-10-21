@@ -1,5 +1,5 @@
 # meaning-error-middleware
-Express middleware to translate <a href="https://github.com/krolow/meaning-error/">meaning-errors</a> to HTTP protocol.
+Express middleware to translate <a href="https://github.com/krolow/meaning-error/">meaning-error</a> to HTTP protocol.
 
 ## Usage
 ```javascript
@@ -8,7 +8,7 @@ import errorMeaning from 'meaning-error-middleware';
 
 const app = express();
 
-app.use(errorMeaning)
+app.use(errorMeaning);
 ```
 
 ## License
