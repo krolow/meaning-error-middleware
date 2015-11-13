@@ -2,7 +2,7 @@ import { MeaningError } from 'meaning-error';
 
 export default function (err, req, res, next) {
   if (!(err instanceof MeaningError)) {
-    return next();
+    return next(err, req, res);
   }
 
   const data = {
