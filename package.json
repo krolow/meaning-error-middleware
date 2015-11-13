@@ -1,6 +1,6 @@
 {
   "name": "meaning-error-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Meaning error middleware",
   "main": "lib/index.js",
   "devDependencies": {
